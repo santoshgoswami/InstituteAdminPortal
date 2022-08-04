@@ -8,7 +8,7 @@ import { PreloaderService } from '@core';
 export class AppComponent implements OnInit, AfterViewInit {
   constructor(private preloader: PreloaderService) {}
 
-  ngOnInit() {}
+  ngOnInit() { }
 
   ngAfterViewInit() {
     this.preloader.hide();
